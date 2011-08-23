@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="underscore-min.js"></script>
+	<script type="text/javascript" src="circgen.js"></script>
+	<style type="text/css">
+	* {
+		font: 10pt segoe ui;
+	}
+	td {
+		vertical-align: top
+	}
+	#controls {
+		vertical-align: top;
+		width: 180px;
+		max-height:650px;
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+	label {
+		display:block;
+	}
+	#controls input {
+		width: 95%;
+		display:block
+	}
+	#c {
+		border: 1px solid #000
+	}
+	#controls span {
+		color: #888
+	}
+	</style>
+</head>
+<body onload="init()">
+<table>
+<tr><td><div id="controls"><button onclick="regen()">Regen</button><br></div></td>
+<td><canvas id="c"></canvas></td></tr>
+</table>
+	
+	
+
+	
+</body>
+</html>
